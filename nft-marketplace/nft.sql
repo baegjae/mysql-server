@@ -545,26 +545,26 @@ CREATE TABLE `fc_system` (
 
 /*Data for the table `fc_system` */
 
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (1,'networkId','4',1,1619549758,1639365653,0);
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (1,'networkId','1337',1,1619549758,1639365653,0); # network id
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (2,'ipfsUrl','https://ipfs.fingerchar.com',1,1619549758,1639378471,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (3,'sellerFee','250',1,1619549758,1639365661,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (4,'buyerFee','250',1,1619549758,1639365666,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (5,'NFT721','0x5377F6a0e8fAe84e68a0Af6de8d3EB43556e8fb0',1,1619549758,1639367012,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (6,'TransferProxy','0xA97e2C8725E42DDab31Af8e5FAF046E4A8dB4f66',1,1619549758,1639365699,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (7,'TransferProxyForDeprecated','0xB8D06ABBea832efa937f355060C8296FCc079858',1,1619549758,1639365705,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (8,'ERC20TransferProxy','0x9F5b8d15cC817ca8cA778b399f2fE2B1e7a202b3',1,1619549758,1639365711,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (9,'NftExchange','0x680Ff2011292A9D8B160B7Ec2DaAd549e1C77fC5',1,1619549758,1639379556,0);
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (5,'NFT721','0x31CD0EC7037B3395781ae35C43471AcDC9F0964b',1,1619549758,1639367012,0); # NFT721 of output json
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (6,'TransferProxy','0x3D80Fa49eDf0c7A204eEFc25Cd42C5f68cfc24b3',1,1619549758,1639365699,0); # transferProxy of output json
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (7,'TransferProxyForDeprecated','0xB1D2441091D86D736E7fc38eB08D5E0570bEE2B4',1,1619549758,1639365705,0); # transferProxyForDeprecated of output json
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (8,'ERC20TransferProxy','0x36ED6db139A81101abeEf9436e2bD7379B4bde8e',1,1619549758,1639365711,0); # erc20TransferProxy of output json
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (9,'NftExchange','0x2D9abe49fb58e9223F8E0a7552765d140290f0DD',1,1619549758,1639379556,0); # exchange address of output json
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (10,'StaticPath','https://fingernft.fingerchar.com',1,1619549758,1639365588,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (11,'LastBlock','9806419',0,1619549758,1639381092,0);
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (11,'LastBlock','1',0,1619549758,1639381092,0); # should be prior block of of nft contract
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (12,'NftDefaultVerify','1',0,1619549758,1639367101,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (13,'LoginMessage','Welcome. Login Finger NFT Market. This is completely secure and doesn\'t cost anything!',1,1619549758,1639365614,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (14,'WebSite','https://fingernft.fingerchar.com',1,1619549758,1639365544,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (15,'ChainApiUrl','https://rinkeby-light.eth.linkpool.io/',0,1625305504,1639365649,0);
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (15,'ChainApiUrl','HTTP://127.0.0.1:7545',0,1625305504,1639365649,0); # network rpc server of output json
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (16,'IpfsServerIp','43.128.40.5',0,1625305504,1639377765,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (17,'IpfsServerPort','20002',0,1625305504,1639378180,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (18,'IpfsRemoteServer','',0,1625305504,1639367121,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (19,'MintKey','90ee1d135226d036df9582fb570281cf0a6f8421ea881ca5877124bdbd9eb41a',0,1625305504,1639365927,0);
-insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (20,'TransKey','a81d497b1dc1d91b0c5b326ee546e85dacdc75e64ecbe429643d3a7ad4512285',0,1625305504,1639365935,0);
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (19,'MintKey','7cb5bc6874cd538d0d159d3979678092f86410f93a591b09a06563ec56d9137a',0,1625305504,1639365927,0); # miner's private key
+insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (20,'TransKey','e2df28a41e9ffb3153e2235a28300bbfa1f6efb3ff05fefb08012367534e9146',0,1625305504,1639365935,0); # buyerFeeSigner's private key
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (21,'StorageLocalPath','static/upload',0,1625305504,1625305504,0);
 insert  into `fc_system`(`id`,`key_name`,`key_value`,`show`,`create_time`,`update_time`,`deleted`) values (22,'StorageRequestBase','/static/upload',0,1625305504,1625305504,0);
 

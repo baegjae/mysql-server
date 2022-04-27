@@ -5,10 +5,10 @@ services:
     image: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=fingernft
+      - MYSQL_DATABASE=nft
     ports:
       - "3306:3306"
     volumes:
-      - "./fingernft.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./nft.sql:/docker-entrypoint-initdb.d/1.sql"
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci
     platform: linux/x86_64
